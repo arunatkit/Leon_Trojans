@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2253184fs"></ZoomEndTime>
+      <Cursor1Time time="1001000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="528"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="73" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/new_count_no_spec_inst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/new_count_no_spec_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">new_count_no_spec_inst[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pc_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pc_D[31:2]</obj_property>
+      <obj_property name="ObjectShortName">r_d_pc_D[31:2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pv_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pv_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_pv_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_inst_match">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_inst_match</obj_property>
+      <obj_property name="ObjectShortName">trojan_inst_match</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_mode">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_mode</obj_property>
+      <obj_property name="ObjectShortName">trojan_mode</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ir_addr_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ir_addr_D[31:2]</obj_property>
+      <obj_property name="ObjectShortName">ir_addr_D[31:2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/new_count_no_spec_inst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/new_count_no_spec_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">new_count_no_spec_inst[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_bp_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_bp_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_bp_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_bpimiss_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_bpimiss_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_bpimiss_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_itovr_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_itovr_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_ctrl_itovr_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_ld_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_ld_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_ctrl_ld_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_rd_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_rd_D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_a_ctrl_rd_D[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_wy_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_wy_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_ctrl_wy_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_divstart_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_divstart_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_divstart_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_et_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_et_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_et_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_jmpl_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_jmpl_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_jmpl_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_mulstart_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_mulstart_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_mulstart_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_nobp_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_nobp_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_nobp_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_step_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_step_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_step_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_su_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_su_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_su_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ticc_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ticc_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_ticc_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_wovf_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_wovf_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_wovf_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_wunf_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_wunf_D</obj_property>
+      <obj_property name="ObjectShortName">r_a_wunf_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_annul_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_annul_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_annul_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_cnt_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_cnt_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_d_cnt_D[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_divrdy_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_divrdy_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_divrdy_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_inull_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_inull_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_inull_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_irqlatctr_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_irqlatctr_D[11:0]</obj_property>
+      <obj_property name="ObjectShortName">r_d_irqlatctr_D[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_mexc_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_mexc_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_mexc_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pc_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pc_D[31:2]</obj_property>
+      <obj_property name="ObjectShortName">r_d_pc_D[31:2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pcheld_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pcheld_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_pcheld_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pv_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pv_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_pv_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_rexbuf_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_rexbuf_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_d_rexbuf_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_rexpl_immval_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_rexpl_immval_D[31:13]</obj_property>
+      <obj_property name="ObjectShortName">r_d_rexpl_immval_D[31:13]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_step_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_step_D</obj_property>
+      <obj_property name="ObjectShortName">r_d_step_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_aluadd_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_aluadd_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_aluadd_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_alucin_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_alucin_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_alucin_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_aluop_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_aluop_D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_e_aluop_D[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_alusel_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_alusel_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_e_alusel_D[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ctrl_wreg_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ctrl_wreg_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_ctrl_wreg_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_et_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_et_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_et_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_invop2_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_invop2_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_invop2_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_jmpl_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_jmpl_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_jmpl_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ldbp1_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ldbp1_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_ldbp1_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ldbp2_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ldbp2_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_ldbp2_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_sari_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_sari_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_sari_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_shcnt_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_shcnt_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_e_shcnt_D[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_shleft_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_shleft_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_shleft_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_su_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_su_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_su_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ymsb_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ymsb_D</obj_property>
+      <obj_property name="ObjectShortName">r_e_ymsb_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_casa_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_casa_D</obj_property>
+      <obj_property name="ObjectShortName">r_m_casa_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_annul_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_annul_D</obj_property>
+      <obj_property name="ObjectShortName">r_m_ctrl_annul_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_inst_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_inst_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_m_ctrl_inst_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_wicc_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_wicc_D</obj_property>
+      <obj_property name="ObjectShortName">r_m_ctrl_wicc_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_divz_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_divz_D</obj_property>
+      <obj_property name="ObjectShortName">r_m_divz_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_icc_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_icc_D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_m_icc_D[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_irqen2_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_irqen2_D</obj_property>
+      <obj_property name="ObjectShortName">r_m_irqen2_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_irqen_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_irqen_D</obj_property>
+      <obj_property name="ObjectShortName">r_m_irqen_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_itrhit_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_itrhit_D</obj_property>
+      <obj_property name="ObjectShortName">r_m_itrhit_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_svt_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_svt_D</obj_property>
+      <obj_property name="ObjectShortName">r_w_s_svt_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_inst_match">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_inst_match</obj_property>
+      <obj_property name="ObjectShortName">trojan_inst_match</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_mode">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_mode</obj_property>
+      <obj_property name="ObjectShortName">trojan_mode</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/v_m_casaz_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/v_m_casaz_D</obj_property>
+      <obj_property name="ObjectShortName">v_m_casaz_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_exec_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_exec_D</obj_property>
+      <obj_property name="ObjectShortName">vwpr_exec_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_load_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_load_D</obj_property>
+      <obj_property name="ObjectShortName">vwpr_load_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_mask_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_mask_D[31:2]</obj_property>
+      <obj_property name="ObjectShortName">vwpr_mask_D[31:2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_store_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_store_D</obj_property>
+      <obj_property name="ObjectShortName">vwpr_store_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_et_D">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_et_D</obj_property>
+      <obj_property name="ObjectShortName">r_w_s_et_D</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/dci[read]">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/dci[read]</obj_property>
+      <obj_property name="ObjectShortName">dci[read]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/dci[write]">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/dci[write]</obj_property>
+      <obj_property name="ObjectShortName">dci[write]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/ici[inull]">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/ici[inull]</obj_property>
+      <obj_property name="ObjectShortName">ici[inull]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ici[flush]">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ici[flush]</obj_property>
+      <obj_property name="ObjectShortName">ici[flush]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ici[su]">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ici[su]</obj_property>
+      <obj_property name="ObjectShortName">ici[su]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

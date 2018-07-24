@@ -1,0 +1,91 @@
+/*
+
+Vivado v2017.1 (64-bit)
+SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+
+Process ID: 972
+License: Customer
+
+Current time: 	11/3/17 2:14:25 PM CET
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: NAME="Ubuntu"
+OS Version: 4.4.0-98-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :0.0
+Screen size: 3840x1200
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 110 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre
+JVM executable location: 	/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/bin/java
+Java library paths: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/libxslt/lib:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/lib/amd64:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/lib/amd64/server:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	arunkumar
+User home directory: /home/arunkumar
+User working directory: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado
+HDI_APPROOT: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1
+RDI_DATADIR: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/data
+RDI_BINDIR: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/bin
+
+User preferences location: /home/arunkumar/.Xilinx/Vivado
+Vivado preferences directory: /home/arunkumar/.Xilinx/Vivado/2017.1/vivado.xml
+Vivado layouts directory: /home/arunkumar/.Xilinx/Vivado/2017.1/layouts
+PlanAhead jar location: 	/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-972-i83pc10
+
+GUI allocated memory:	135 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,062 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 49 MB (+48821kb) [00:00:12]
+// [Engine Memory]: 5,020 MB (+5111876kb) [00:00:12]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: leon3-xilinx-kc705.xpr. Version: Vivado v2017.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project leon3-xilinx-kc705.xpr 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 59 MB (+8073kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,072 MB. GUI used memory: 30 MB. Current time: 11/3/17 2:14:27 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 MB (+390kb) [00:00:25]
+// [GUI Memory]: 76 MB (+11237kb) [00:00:25]
+// [GUI Memory]: 85 MB (+5598kb) [00:00:25]
+// [GUI Memory]: 93 MB (+3764kb) [00:00:27]
+// Tcl Message: open_project leon3-xilinx-kc705.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:14 . Memory (MB): peak = 6161.613 ; gain = 120.109 ; free physical = 6388 ; free virtual = 41327 
+// Project name: leon3-xilinx-kc705; location: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705; part: xc7k325tffg900-2
+// [GUI Memory]: 98 MB (+364kb) [00:00:30]
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 5,208 MB. GUI used memory: 49 MB. Current time: 11/3/17 2:14:43 PM CET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 

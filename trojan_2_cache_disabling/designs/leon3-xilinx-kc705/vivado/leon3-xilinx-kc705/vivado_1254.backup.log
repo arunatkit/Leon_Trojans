@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Nov  3 14:15:31 2017
+# Process ID: 1254
+# Current directory: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705
+# Command line: vivado leon3-xilinx-kc705.xpr
+# Log file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/vivado.log
+# Journal file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project leon3-xilinx-kc705.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/clean_rst.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/decoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/encoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_constants.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_regs.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_test.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/timescale.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_an.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_rx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_tx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/gaisler/ddr/mig_interface_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/gaisler/i2c/i2c_slave_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/micron/sdram/mobile_sdr.v:]
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/clean_rst.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/decoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/encoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_constants.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_regs.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_test.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/timescale.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_an.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_rx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_tx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/gaisler/ddr/mig_interface_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/gaisler/i2c/i2c_slave_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/micron/sdram/mobile_sdr.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/clean_rst.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/decoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/encoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_constants.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_regs.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_test.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/timescale.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_an.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_rx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/opencores/ge_1000baseX/ge_1000baseX_tx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/gaisler/ddr/mig_interface_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/gaisler/i2c/i2c_slave_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/lib/micron/sdram/mobile_sdr.v:]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:12 . Memory (MB): peak = 6169.188 ; gain = 135.977 ; free physical = 6349 ; free virtual = 41322
+set_property source_mgmt_mode None [current_project]
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  3 14:22:35 2017...

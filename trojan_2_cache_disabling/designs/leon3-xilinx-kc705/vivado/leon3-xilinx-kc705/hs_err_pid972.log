@@ -1,0 +1,26 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x923da9) [0x7fb25d4feda9]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xb6) [0x7fb25d5053f6]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x9209d3) [0x7fb25d4fb9d3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7fb296a424b0]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraphMgr::getDesignGraph(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const+0x66) [0x7fb27407b296]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraphMgr::createDesignGraph(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x29) [0x7fb27407c9a9]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGParserConfigHolder::HADGParserConfigHolder(HADAFileSet*, HADGDesignGraph*)+0xbbd) [0x7fb2740eb98d]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraph::attachParserConfigHolder_(HADAFileSet*)+0x4c) [0x7fb2740617dc]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraph::addBlockFileSet_(HADAFileSet*)+0xa2) [0x7fb274061912]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraph::addBlockFileSets_(HADAFileMgr*)+0x145) [0x7fb274061b95]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraph::addFileSet_(HADAFileSet*, bool)+0x375) [0x7fb27406a545]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraph::updateForSimSets_()+0x309) [0x7fb27406aa09]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraph::updateGraphDetail(bool, HDGUIStatus*, void (HADGDesignGraph::*)(bool, HDGUIStatus&))+0x850) [0x7fb27406f390]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraph::updateGraph(bool, HDGUIStatus*)+0x20) [0x7fb27406fa00]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(HADGDesignGraphMgr::getCurrentGraph(HADAFileSet*, HDGUIStatus*, bool, HADGDesignGraphMgr::ResultFidelity, HADGDesignGraphMgr::ObjectiveType)+0x7e6) [0x7fb27407ecb6]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<HADGDesignGraph*>, std::__future_base::_Result_base::_Deleter>, std::_Bind_simple<std::_Mem_fn<HADGDesignGraph* (HADGDesignGraphMgr::*)(HADAFileSet*, HDGUIStatus*, bool, HADGDesignGraphMgr::ResultFidelity, HADGDesignGraphMgr::ObjectiveType)> (HADGDesignGraphMgr*, HADAFileSet*, HDGUIStatus*, bool, HADGDesignGraphMgr::ResultFidelity, HADGDesignGraphMgr::ObjectiveType)>, HADGDesignGraph*> >::_M_invoke(std::_Any_data const&)+0x44) [0x7fb27407f884]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(+0x337a19) [0x7fb274072a19]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0xea99) [0x7fb2967fea99]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/librdi_filemgmt.so(std::thread::_State_impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<std::_Mem_fn<HADGDesignGraph* (HADGDesignGraphMgr::*)(HADAFileSet*, HDGUIStatus*, bool, HADGDesignGraphMgr::ResultFidelity, HADGDesignGraphMgr::ObjectiveType)> (HADGDesignGraphMgr*, HADAFileSet*, HDGUIStatus*, bool, HADGDesignGraphMgr::ResultFidelity, HADGDesignGraphMgr::ObjectiveType)>, HADGDesignGraph*>::_Async_state_impl(std::_Bind_simple<std::_Mem_fn<HADGDesignGraph* (HADGDesignGraphMgr::*)(HADAFileSet*, HDGUIStatus*, bool, HADGDesignGraphMgr::ResultFidelity, HADGDesignGraphMgr::ObjectiveType)> (HADGDesignGraphMgr*, HADAFileSet*, HDGUIStatus*, bool, HADGDesignGraphMgr::ResultFidelity, HADGDesignGraphMgr::ObjectiveType)>&&)::{lambda()#1} ()> >::_M_run()+0xba) [0x7fb27408006a]
+/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o/libstdc++.so.6(+0xb8cbf) [0x7fb2970a5cbf]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7fb2967f76ba]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fb296b143dd]

@@ -1,0 +1,461 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Nov 14 18:32:43 2017
+# Process ID: 15858
+# Current directory: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705
+# Command line: vivado leon3-xilinx-kc705.xpr
+# Log file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/vivado.log
+# Journal file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project leon3-xilinx-kc705.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/clean_rst.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/decoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/encoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_constants.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_regs.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_test.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/timescale.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_an.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_rx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_tx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/gaisler/ddr/mig_interface_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/gaisler/i2c/i2c_slave_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/micron/sdram/mobile_sdr.v:]
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/clean_rst.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/decoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/encoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_constants.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_regs.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_test.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/timescale.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_an.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_rx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_tx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/gaisler/ddr/mig_interface_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/gaisler/i2c/i2c_slave_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/micron/sdram/mobile_sdr.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/clean_rst.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/decoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/encoder_8b10b.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_constants.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_regs.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_test.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/timescale.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_an.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_rx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/opencores/ge_1000baseX/ge_1000baseX_tx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/gaisler/ddr/mig_interface_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/gaisler/i2c/i2c_slave_model.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/lib/micron/sdram/mobile_sdr.v:]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:10 . Memory (MB): peak = 6164.754 ; gain = 160.590 ; free physical = 3536 ; free virtual = 41252
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.1
+  **** Build date : Apr 14 2017-19:01:52
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A01F68A
+set_property PROGRAM.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 6429.480 ; gain = 0.000 ; free physical = 3393 ; free virtual = 41120
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:48
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+source /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/scripts/script_to_read_output.tcl
+# for {set i 0} {$i < 1000} {incr i } {
+# #
+# #
+# #Capture data 
+# run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+# wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+# 
+# #Displaydata
+#  
+# display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+# 
+# #write data 
+# 
+# write_hw_ila_data -force  /home/arunkumar/data_collection_from_fpga/sample_$i.zip
+# 
+# 
+# 
+# }
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:53
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:53
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:54
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:55
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:56
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:57
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:57
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:58
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:34:59
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:34:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:00
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:01
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:01
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:02
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:03
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:04
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:04
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:05
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:06
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:07
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:07
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:08
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:08
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:09
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:10
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:11
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:12
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:13
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:13
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:14
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:15
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:16
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:17
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:17
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:18
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:18
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:19
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:20
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:20
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:21
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:22
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:23
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:23
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:24
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:24
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:25
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:26
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:27
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:28
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:28
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:29
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:29
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:30
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:30
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:31
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:31
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:32
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:33
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:34
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:34
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:35
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:35
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:36
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:36
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:36
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:36
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:37
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:38
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:39
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:40
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:41
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:41
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:42
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:42
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:43
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:44
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:45
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:45
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:46
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:46
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:47
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:47
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:48
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:49
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:49
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:50
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:50
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:50
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:50
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:51
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:51
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:52
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:53
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:54
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:55
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:55
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:56
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:57
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:58
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:35:59
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:35:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:00
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:01
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:01
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:02
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:03
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:04
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:04
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:05
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:06
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:07
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:08
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:08
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:09
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:09
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:10
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:11
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:12
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:13
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:14
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:14
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:15
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Common 17-14] Message 'Labtools 27-3304' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Nov-14 18:36:16
+INFO: [Common 17-14] Message 'Labtools 27-1964' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Nov-14 18:36:16
+INFO: [Common 17-14] Message 'Labtools 27-1966' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+set_property PROBES.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 6443.957 ; gain = 0.000 ; free physical = 3430 ; free virtual = 41131
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+source /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/scripts/script_to_read_output.tcl
+# for {set i 0} {$i < 1000} {incr i } {
+# #
+# #
+# #Capture data 
+# run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+# wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+# 
+# #Displaydata
+#  
+# display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+# 
+# #write data 
+# 
+# write_hw_ila_data -force  /home/arunkumar/data_collection_from_fpga/sample_$i.zip
+# 
+# 
+# 
+# }
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'run_hw_ila' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+save_wave_config {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_3_cache_disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 18:45:44 2017...

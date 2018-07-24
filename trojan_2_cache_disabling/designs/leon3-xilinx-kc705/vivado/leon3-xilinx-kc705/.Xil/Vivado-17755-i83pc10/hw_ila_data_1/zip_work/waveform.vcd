@@ -1,0 +1,62 @@
+$date
+        2017-Aug-01 15:14:58
+$end
+$version
+        Vivado v2017.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 30 " \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pc_D [31:2] $end
+$var reg 6 @ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/new_count_no_spec_inst [5:0] $end
+$var reg 1 F \leon/vhdl.p0/iu/dsugen.dsur_reg[tlim]__0 $end
+$var reg 1 G \leon/vhdl.p0/iu/wpgen[1].wpg0.wpr_reg[1][addr]__0 $end
+$var reg 8 H \leon/vhdl.p0/iu/dsugen.dsur_reg[tt]__0 [7:0] $end
+$var reg 5 P \leon/vhdl.p0/iu/r_reg[w][s][wim]__0_1 [4:0] $end
+$var reg 2 U \leon/vhdl.p0/iu/r_reg[w][s][wim]__0 [7:6] $end
+$var reg 3 W leon/vhdl.p0/iu/data3_1 [25:23] $end
+$var reg 1 Z leon/vhdl.p0/iu/data3 $end
+$var reg 1 [ leon/vhdl.p0/iu/asr17_gen__0 $end
+$var reg 1 \ \leon/vhdl.p0/iu/r_reg[x][data][1]__0_1 $end
+$var reg 2 ] \leon/vhdl.p0/iu/r_reg[x][data][1]__0_2 [7:6] $end
+$var reg 2 _ \leon/vhdl.p0/iu/r_reg[x][data][1]__0_3 [10:9] $end
+$var reg 3 a \leon/vhdl.p0/iu/r_reg[x][data][1]__0_4 [14:12] $end
+$var reg 8 d \leon/vhdl.p0/iu/r_reg[x][data][1]__0_5 [23:16] $end
+$var reg 3 l \leon/vhdl.p0/iu/r_reg[x][data][1]__0_6 [28:26] $end
+$var reg 2 o \leon/vhdl.p0/iu/r_reg[x][data][1]__0 [31:30] $end
+$var reg 1 q leon/vhdl.p0/iu/asr17_gen_1 $end
+$var reg 1 r leon/vhdl.p0/iu/asr17_gen_2 $end
+$var reg 1 s leon/vhdl.p0/iu/asr17_gen $end
+$var reg 2 t \leon/vhdl.p0/iu/dsugen.dsur_reg[tfilt]__0 [3:2] $end
+$var reg 1 v \leon/vhdl.p0/iu/r_reg[x][ctrl][pc]__0 $end
+$var reg 8 w \leon/vhdl.p0/iu/dsugen.dsur_reg[tbufcnt]__0 [7:0] $end
+$var reg 8 !" \leon/vhdl.p0/iu/dsugen.dsur_reg[asi]__0 [7:0] $end
+$var reg 10 )" \leon/vhdl.p0/iu/irreg.ir_reg[addr]__0_1 [9:0] $end
+$var reg 6 3" \leon/vhdl.p0/iu/irreg.ir_reg[addr]__0_2 [23:18] $end
+$var reg 1 9" \leon/vhdl.p0/iu/irreg.ir_reg[addr]__0 $end
+$var reg 1 :" \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_inst_match $end
+$var reg 1 ;" \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_mode $end
+$var reg 1 <" \leon/vhdl.p0/iu/dsugen.dsur_reg[err]__0 $end
+$var reg 1 =" \leon/vhdl.p0/iu/dsugen.dsur_reg[tov]__0 $end
+$var reg 1 >" \leon/vhdl.p0/iu/dsugen.dsur_reg[tovb]__0 $end
+$var reg 1 ?" \leon/vhdl.p0/iu/dsur[asi] $end
+$var reg 1 @" \leon/vhdl.p0/iu/dsur[tfilt] $end
+$var reg 1 A" leon/vhdl.p0/iu/error $end
+$var reg 1 B" leon/vhdl.p0/iu/ov $end
+$var reg 1 C" leon/vhdl.p0/iu/p_0_in223_in $end
+$var reg 1 D" leon/vhdl.p0/iu/p_283_in $end
+$var reg 1 E" \leon/vhdl.p0/iu/r_reg[d][annul]__0 $end
+$var reg 1 F" \leon/vhdl.p0/iu/r_reg[w][s][et]__0 $end
+$var reg 1 G" \leon/vhdl.p0/iu/r_reg[x][ctrl][pv]__0 $end
+$var reg 1 H" \leon/vhdl.p0/iu/r_reg[x][ctrl][trap]__0 $end
+$var reg 1 I" \leon/vhdl.p0/iu/r_reg[x][mexc]__0 $end
+$var reg 1 J" \leon/vhdl.p0/iu/r_reg[x][set] $end
+$var reg 1 K" \leon/vhdl.p0/iu/rin[d][step] $end
+$var reg 1 L" \leon/vhdl.p0/iu/wpgen[0].wpg0.wpr_reg[0][load]__0 $end
+$var reg 1 M" \leon/vhdl.p0/iu/wpgen[1].wpg0.wpr_reg[1][load]__0 $end
+$var reg 1 N" _TRIGGER $end
+$var reg 1 O" _WINDOW $end
+$var reg 1 P" _GAP $end
+$upscope $end
+$enddefinitions $end

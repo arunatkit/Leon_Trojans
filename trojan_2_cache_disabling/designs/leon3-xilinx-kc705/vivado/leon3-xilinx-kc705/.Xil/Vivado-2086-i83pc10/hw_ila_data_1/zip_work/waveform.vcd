@@ -1,0 +1,179 @@
+$date
+        2017-Nov-03 17:51:44
+$end
+$version
+        Vivado v2017.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 5 " \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_shcnt_D [4:0] $end
+$var reg 32 ' \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_inst_D [31:0] $end
+$var reg 32 G \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/new_count_no_spec_inst [31:0] $end
+$var reg 3 g \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_aluop_D [2:0] $end
+$var reg 2 j \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_alusel_D [1:0] $end
+$var reg 4 l \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_icc_D [3:0] $end
+$var reg 8 p \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_rd_D [7:0] $end
+$var reg 12 x \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_irqlatctr_D [11:0] $end
+$var reg 2 &" \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_cnt_D [1:0] $end
+$var reg 30 (" \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pc_D [31:2] $end
+$var reg 32 F" \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_rexbuf_D [31:0] $end
+$var reg 19 f" \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_rexpl_immval_D [31:13] $end
+$var reg 30 y" \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ir_addr_D [31:2] $end
+$var reg 1 9# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/syncrregs.r_reg[mmctrl2][fs][ft][1] $end
+$var reg 30 :# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_mask_D [31:2] $end
+$var reg 1 X# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_bp_D $end
+$var reg 1 Y# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_bpimiss_D $end
+$var reg 1 Z# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_itovr_D $end
+$var reg 1 [# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_ld_D $end
+$var reg 1 \# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ctrl_wy_D $end
+$var reg 1 ]# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_divstart_D $end
+$var reg 1 ^# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_et_D $end
+$var reg 1 _# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_jmpl_D $end
+$var reg 1 `# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_mulstart_D $end
+$var reg 1 a# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_nobp_D $end
+$var reg 1 b# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_step_D $end
+$var reg 1 c# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_su_D $end
+$var reg 1 d# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_ticc_D $end
+$var reg 1 e# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_wovf_D $end
+$var reg 1 f# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_wunf_D $end
+$var reg 1 g# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_annul_D $end
+$var reg 1 h# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_divrdy_D $end
+$var reg 1 i# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_inull_D $end
+$var reg 1 j# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_mexc_D $end
+$var reg 1 k# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pcheld_D $end
+$var reg 1 l# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_pv_D $end
+$var reg 1 m# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_step_D $end
+$var reg 1 n# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_aluadd_D $end
+$var reg 1 o# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_alucin_D $end
+$var reg 1 p# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ctrl_wreg_D $end
+$var reg 1 q# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_et_D $end
+$var reg 1 r# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_invop2_D $end
+$var reg 1 s# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_jmpl_D $end
+$var reg 1 t# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ldbp1_D $end
+$var reg 1 u# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ldbp2_D $end
+$var reg 1 v# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_sari_D $end
+$var reg 1 w# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_shleft_D $end
+$var reg 1 x# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_su_D $end
+$var reg 1 y# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_e_ymsb_D $end
+$var reg 1 z# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_casa_D $end
+$var reg 1 {# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_annul_D $end
+$var reg 1 |# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_ctrl_wicc_D $end
+$var reg 1 }# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_divz_D $end
+$var reg 1 ~# \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_irqen2_D $end
+$var reg 1 !$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_irqen_D $end
+$var reg 1 "$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_itrhit_D $end
+$var reg 1 #$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_mac_D $end
+$var reg 1 $$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_nalign_D $end
+$var reg 1 %$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_su_D $end
+$var reg 1 &$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_wcwp_D $end
+$var reg 1 '$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_m_werr_D $end
+$var reg 1 ($ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_dbp_D $end
+$var reg 1 )$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_dbprepl_D $end
+$var reg 1 *$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_dwt_D $end
+$var reg 1 +$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_et_D $end
+$var reg 1 ,$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_rexdis_D $end
+$var reg 1 -$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_rextrap_D $end
+$var reg 1 .$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_w_s_svt_D $end
+$var reg 1 /$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_inst_match $end
+$var reg 1 0$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/trojan_mode $end
+$var reg 1 1$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/v_m_casaz_D $end
+$var reg 1 2$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_exec_D $end
+$var reg 1 3$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_load_D $end
+$var reg 1 4$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/vwpr_store_D $end
+$var reg 1 5$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/dci[read] $end
+$var reg 1 6$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/dci[write] $end
+$var reg 1 7$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ici[flush] $end
+$var reg 1 8$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/ici[inull] $end
+$var reg 1 9$ \leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/ici[su] $end
+$var reg 1 :$ _TRIGGER $end
+$var reg 1 ;$ _WINDOW $end
+$var reg 1 <$ _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b11000110001010001000000000000000 '
+b1111111111111111 G
+b0 g
+b0 j
+b0 l
+b10000011 p
+b0 x
+b0 &"
+b10000000000000000010010111110 ("
+b0 F"
+b0 f"
+b10000000000000000010010111111 y"
+09#
+b0 :#
+0X#
+0Y#
+0Z#
+0[#
+0\#
+0]#
+1^#
+0_#
+0`#
+0a#
+0b#
+1c#
+0d#
+0e#
+0f#
+1g#
+0h#
+0i#
+0j#
+0k#
+0l#
+0m#
+1n#
+0o#
+0p#
+1q#
+0r#
+0s#
+0t#
+0u#
+0v#
+0w#
+1x#
+0y#
+0z#
+1{#
+0|#
+0}#
+1~#
+1!$
+1"$
+0#$
+0$$
+1%$
+0&$
+0'$
+0($
+1)$
+0*$
+1+$
+1,$
+1-$
+0.$
+0/$
+10$
+01$
+02$
+03$
+04$
+05$
+06$
+07$
+18$
+19$
+1:$
+1;$
+0<$
+$end

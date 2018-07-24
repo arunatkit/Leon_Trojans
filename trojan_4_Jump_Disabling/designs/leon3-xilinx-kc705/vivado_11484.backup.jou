@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Nov  9 12:01:05 2017
+# Process ID: 11484
+# Current directory: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/TRY_enabling_statistical_unit_for_perf_counters/designs/leon3-xilinx-kc705
+# Command line: vivado -mode batch -source ./vivado/leon3mp_vivado.tcl ./vivado/leon3mp_vivado_run.tcl
+# Log file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/TRY_enabling_statistical_unit_for_perf_counters/designs/leon3-xilinx-kc705/vivado.log
+# Journal file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/TRY_enabling_statistical_unit_for_perf_counters/designs/leon3-xilinx-kc705/vivado.jou
+#-----------------------------------------------------------
+source ./vivado/leon3mp_vivado.tcl
+source ./vivado/leon3mp_vivado_run.tcl

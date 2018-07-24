@@ -1,0 +1,19 @@
+The four trojan designs are given in 4 separate folders according to the nomenclature.
+Use the following Tools and Boards preferably
+---------------------------------------------
+Xilinx Kintex-7 FPGA KC705
+Xilinx Vivado 2017.1 or later.
+
+The project file to open
+---------------------------------------------
+For example, to open the trojan_4 - inserted Leon3 design, follow the commands:
+
+cd ./trojan_4_Jump_Disabling/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/
+vivado leon3-xilinx-kc705.xpr
+
+More info
+--------------
+For other trojans, open their corresponding .xpr file.
+The design is already placed, routed and bitstream is also generated to be loaded to the FPGA.
+You can run your cross-compiled programs (for SPARC architecture) in Leon3 by using a grmon debug monitor.
+It is openly available at https://www.gaisler.com/index.php/products/debug-tools

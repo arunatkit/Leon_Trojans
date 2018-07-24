@@ -1,0 +1,794 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Nov 10 16:16:27 2017
+# Process ID: 27405
+# Current directory: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1
+# Command line: vivado -log leon3mp.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source leon3mp.tcl -notrace
+# Log file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp.vdi
+# Journal file: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source leon3mp.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 1131 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.1
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.srcs/sources_1/ip/mig/mig/user_design/constraints/mig.xdc] for cell 'mig_gen.gen_mig.ddrc/gen_mig.MCB_inst'
+Finished Parsing XDC File [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.srcs/sources_1/ip/mig/mig/user_design/constraints/mig.xdc] for cell 'mig_gen.gen_mig.ddrc/gen_mig.MCB_inst'
+Parsing XDC File [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc]
+CRITICAL WARNING: [Constraints 18-1056] Clock 'clk200' completely overrides clock 'clk200p'.
+New: create_clock -period 5.000 -name clk200 [get_ports clk200p], [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:2]
+Previous: create_clock -period 5.000 [get_ports clk200p], [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.srcs/sources_1/ip/mig/mig/user_design/constraints/mig.xdc:26]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:16]
+INFO: [Timing 38-2] Deriving generated clocks [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:16]
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:16]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:16]
+get_clocks: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2216.418 ; gain = 576.672 ; free physical = 3199 ; free virtual = 38212
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:16]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:17]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:17]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:17]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:18]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:18]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:18]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:19]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:19]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:19]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:20]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:20]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:20]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:21]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:21]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:21]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:22]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:22]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:22]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:23]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:23]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:23]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:26]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'spi_sel_n'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:26]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports spi_sel_n]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:26]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:28]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'spi_miso'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:28]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports spi_miso]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:28]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:29]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'spi_mosi'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:29]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects [get_ports spi_mosi]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:29]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:32]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:32]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:32]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:33]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:33]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:33]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:34]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:34]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:34]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:35]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:35]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:35]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:39]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:39]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:39]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:40]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:40]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:40]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:41]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:41]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:41]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:42]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:42]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:42]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:45]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:45]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:45]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:46]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:46]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:46]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:47]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:47]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:47]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:48]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:48]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:48]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:55]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:55]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:55]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:56]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:56]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:56]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:57]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:57]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:57]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:58]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:58]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:58]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:59]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:59]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:59]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:60]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:60]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:60]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:61]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:61]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:61]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:62]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:62]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:62]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'phy_c*'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Timing 38-2] Deriving generated clocks [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:110]
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:152]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:152]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:152]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:153]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:153]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:153]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:154]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:154]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:154]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:155]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:155]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:155]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:158]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:158]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:158]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'CLKFBOUT'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:159]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:159]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks -include_generated_clocks CLKFBOUT]'. [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc:159]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/boards/xilinx-kc705-xc7k325t/xilinx-kc705-xc7k325t.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 442 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 23 instances
+  IOBUFDS_DIFF_OUT_DCIEN => IOBUFDS_DIFF_OUT_DCIEN (IBUFDS_IBUFDISABLE_INT, IBUFDS_IBUFDISABLE_INT, INV, OBUFTDS_DCIEN, OBUFTDS_DCIEN): 8 instances
+  IOBUF_DCIEN => IOBUF_DCIEN (IBUF_IBUFDISABLE, OBUFT_DCIEN): 64 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 346 instances
+
+link_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 2277.332 ; gain = 1152.461 ; free physical = 3294 ; free virtual = 38246
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+Command: report_drc (run_mandatory_drcs) for: opt_checks
+INFO: [DRC 23-27] Running DRC with 8 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2349.367 ; gain = 64.031 ; free physical = 3278 ; free virtual = 38238
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-318] Generating core instance : dbg_hub
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:3.0", from Vivado IP cache entry "934242e87c9ae875".
+INFO: [Chipscope 16-318] Generating core instance : u_ila_0
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "e8c93925e7d14c04".
+Netlist sorting complete. Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.23 . Memory (MB): peak = 2375.953 ; gain = 0.000 ; free physical = 3072 ; free virtual = 38029
+Phase 1 Generate And Synthesize Debug Cores | Checksum: a1d90c9f
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:42 . Memory (MB): peak = 2375.953 ; gain = 26.586 ; free physical = 3072 ; free virtual = 38029
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 1912cc02a
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:50 . Memory (MB): peak = 2428.953 ; gain = 79.586 ; free physical = 3085 ; free virtual = 38044
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 628 cells
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 3 Constant propagation | Checksum: fffc77f6
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:53 . Memory (MB): peak = 2428.953 ; gain = 79.586 ; free physical = 3071 ; free virtual = 38029
+INFO: [Opt 31-389] Phase Constant propagation created 71 cells and removed 115 cells
+
+Phase 4 Sweep
+Phase 4 Sweep | Checksum: 23d94a15a
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:01:55 . Memory (MB): peak = 2428.953 ; gain = 79.586 ; free physical = 3067 ; free virtual = 38026
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 215 cells
+
+Phase 5 BUFG optimization
+Phase 5 BUFG optimization | Checksum: 23d94a15a
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:01:57 . Memory (MB): peak = 2428.953 ; gain = 79.586 ; free physical = 3067 ; free virtual = 38026
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 6 Shift Register Optimization
+Phase 6 Shift Register Optimization | Checksum: 23d94a15a
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:01:57 . Memory (MB): peak = 2428.953 ; gain = 79.586 ; free physical = 3068 ; free virtual = 38026
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.17 . Memory (MB): peak = 2428.953 ; gain = 0.000 ; free physical = 3068 ; free virtual = 38026
+Ending Logic Optimization Task | Checksum: 23d94a15a
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:57 . Memory (MB): peak = 2428.953 ; gain = 79.586 ; free physical = 3072 ; free virtual = 38030
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 12 BRAM(s) out of a total of 34 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 2 WE to EN ports
+Number of BRAM Ports augmented: 1 newly gated: 2 Total Ports: 68
+Ending PowerOpt Patch Enables Task | Checksum: 1f2e2a3d3
+
+Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.37 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3156 ; free virtual = 37913
+Ending Power Optimization Task | Checksum: 1f2e2a3d3
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:17 . Memory (MB): peak = 3031.578 ; gain = 602.625 ; free physical = 3183 ; free virtual = 37940
+79 Infos, 45 Warnings, 39 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:03:00 ; elapsed = 00:02:21 . Memory (MB): peak = 3031.578 ; gain = 754.246 ; free physical = 3183 ; free virtual = 37940
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:00.15 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3162 ; free virtual = 37933
+INFO: [Common 17-1381] The checkpoint '/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3312 ; free virtual = 38045
+Command: report_drc -file leon3mp_drc_opted.rpt
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3285 ; free virtual = 38020
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+Command: report_drc (run_mandatory_drcs) for: incr_eco_checks
+INFO: [DRC 23-27] Running DRC with 8 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+Command: report_drc (run_mandatory_drcs) for: placer_checks
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1840 rule limit reached: 20 violations have been found.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[5] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[6] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[1]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[2]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[5] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[6] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][1]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][2]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ENARDEN (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][swrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ENBWREN (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][tenable][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/WEA[2] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][swrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/WEA[3] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][swrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][8]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[13] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][9]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[4] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[5] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][1]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[6] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][2]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ENARDEN (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][denable][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/WEA[0] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][dwrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/WEA[1] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][dwrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][8]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[13] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][9]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 42 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3279 ; free virtual = 38015
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 13b4de82b
+
+Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.21 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3279 ; free virtual = 38015
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.10 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3177 ; free virtual = 37926
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 17d558e80
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:22 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3026 ; free virtual = 37786
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 25d1919fc
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:38 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2982 ; free virtual = 37735
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 25d1919fc
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:38 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2999 ; free virtual = 37752
+Phase 1 Placer Initialization | Checksum: 25d1919fc
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:38 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2999 ; free virtual = 37752
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 178ae6a1c
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:01:44 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3013 ; free virtual = 37765
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 178ae6a1c
+
+Time (s): cpu = 00:03:46 ; elapsed = 00:01:45 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3013 ; free virtual = 37765
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1feef5463
+
+Time (s): cpu = 00:04:21 ; elapsed = 00:01:57 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3005 ; free virtual = 37759
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1f2793894
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:01:58 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3003 ; free virtual = 37758
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1c68dc4a4
+
+Time (s): cpu = 00:04:23 ; elapsed = 00:01:58 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3004 ; free virtual = 37758
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 18ed13a95
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:02:01 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2999 ; free virtual = 37753
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 18ed13a95
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:02:02 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3000 ; free virtual = 37754
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 1285a1d6b
+
+Time (s): cpu = 00:05:06 ; elapsed = 00:02:31 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2959 ; free virtual = 37716
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 13752dabe
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:02:34 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2962 ; free virtual = 37719
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 1f9d5161f
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:02:34 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2959 ; free virtual = 37716
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 1d2205df2
+
+Time (s): cpu = 00:05:29 ; elapsed = 00:02:40 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2966 ; free virtual = 37723
+Phase 3 Detail Placement | Checksum: 1d2205df2
+
+Time (s): cpu = 00:05:29 ; elapsed = 00:02:40 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2965 ; free virtual = 37723
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 15bfec00e
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Place 46-41] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 15bfec00e
+
+Time (s): cpu = 00:06:10 ; elapsed = 00:02:53 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2972 ; free virtual = 37731
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.550. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: b611bbd8
+
+Time (s): cpu = 00:06:34 ; elapsed = 00:03:17 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2968 ; free virtual = 37727
+Phase 4.1 Post Commit Optimization | Checksum: b611bbd8
+
+Time (s): cpu = 00:06:34 ; elapsed = 00:03:17 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2968 ; free virtual = 37728
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: b611bbd8
+
+Time (s): cpu = 00:06:35 ; elapsed = 00:03:18 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2975 ; free virtual = 37734
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: b611bbd8
+
+Time (s): cpu = 00:06:35 ; elapsed = 00:03:18 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2975 ; free virtual = 37735
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 19aa513bd
+
+Time (s): cpu = 00:06:36 ; elapsed = 00:03:19 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2976 ; free virtual = 37735
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 19aa513bd
+
+Time (s): cpu = 00:06:36 ; elapsed = 00:03:19 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2976 ; free virtual = 37735
+Ending Placer Task | Checksum: 101af6087
+
+Time (s): cpu = 00:06:36 ; elapsed = 00:03:19 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3054 ; free virtual = 37813
+99 Infos, 87 Warnings, 39 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:06:50 ; elapsed = 00:03:28 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3055 ; free virtual = 37814
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:04 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2978 ; free virtual = 37800
+INFO: [Common 17-1381] The checkpoint '/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3030 ; free virtual = 37804
+report_io: Time (s): cpu = 00:00:00.60 ; elapsed = 00:00:00.73 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3008 ; free virtual = 37784
+report_utilization: Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.80 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2988 ; free virtual = 37795
+report_control_sets: Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.39 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 3004 ; free virtual = 37801
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+Running DRC as a precondition to command route_design
+Command: report_drc (run_mandatory_drcs) for: router_checks
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC PDCN-2721] IBUFDS_GT_loads_clock_region: IBUFDS_GTE2 eth0.ibufds_gtrefclk drives PLLE2_ADV eth0.clkgen_gtrefclk/xc7l.v/PLLE2_ADV_inst in a different clock region and must do so using local routing resources which may negatively affect clock performance. Use CLOCK_DEDICATED_ROUTE set to FALSE to indicate this is intended.
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: f7717e4 ConstDB: 0 ShapeSum: f23848a3 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 13684f6b5
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:26 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2734 ; free virtual = 37526
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 13684f6b5
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:27 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2731 ; free virtual = 37523
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 13684f6b5
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:28 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2688 ; free virtual = 37479
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 13684f6b5
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:28 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2688 ; free virtual = 37479
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 20cf46003
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:00:46 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2621 ; free virtual = 37410
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.570  | TNS=0.000  | WHS=-1.739 | THS=-2868.678|
+
+Phase 2 Router Initialization | Checksum: 193e5a811
+
+Time (s): cpu = 00:02:20 ; elapsed = 00:00:53 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2653 ; free virtual = 37435
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 152e8d711
+
+Time (s): cpu = 00:02:51 ; elapsed = 00:00:59 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2619 ; free virtual = 37403
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 6228
+ Number of Nodes with overlaps = 646
+ Number of Nodes with overlaps = 183
+ Number of Nodes with overlaps = 75
+ Number of Nodes with overlaps = 34
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.474  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: ecd41374
+
+Time (s): cpu = 00:05:01 ; elapsed = 00:01:32 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2614 ; free virtual = 37393
+Phase 4 Rip-up And Reroute | Checksum: ecd41374
+
+Time (s): cpu = 00:05:01 ; elapsed = 00:01:32 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2614 ; free virtual = 37393
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: ecd41374
+
+Time (s): cpu = 00:05:02 ; elapsed = 00:01:32 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2612 ; free virtual = 37392
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: ecd41374
+
+Time (s): cpu = 00:05:02 ; elapsed = 00:01:32 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2613 ; free virtual = 37392
+Phase 5 Delay and Skew Optimization | Checksum: ecd41374
+
+Time (s): cpu = 00:05:02 ; elapsed = 00:01:33 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2612 ; free virtual = 37392
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: d7360a2e
+
+Time (s): cpu = 00:05:16 ; elapsed = 00:01:36 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2605 ; free virtual = 37385
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.354  | TNS=0.000  | WHS=-0.338 | THS=-2.037 |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1d24df615
+
+Time (s): cpu = 00:05:17 ; elapsed = 00:01:37 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2586 ; free virtual = 37366
+Phase 6 Post Hold Fix | Checksum: 1373be86c
+
+Time (s): cpu = 00:05:17 ; elapsed = 00:01:37 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2587 ; free virtual = 37366
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 3.98969 %
+  Global Horizontal Routing Utilization  = 4.60655 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 19fe526c8
+
+Time (s): cpu = 00:05:18 ; elapsed = 00:01:37 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2586 ; free virtual = 37365
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 19fe526c8
+
+Time (s): cpu = 00:05:18 ; elapsed = 00:01:37 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2585 ; free virtual = 37364
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 198a71e96
+
+Time (s): cpu = 00:05:24 ; elapsed = 00:01:42 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2579 ; free virtual = 37359
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 17312bd4e
+
+Time (s): cpu = 00:05:37 ; elapsed = 00:01:46 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2574 ; free virtual = 37357
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.354  | TNS=0.000  | WHS=0.043  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 17312bd4e
+
+Time (s): cpu = 00:05:37 ; elapsed = 00:01:46 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2574 ; free virtual = 37357
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:05:37 ; elapsed = 00:01:46 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2665 ; free virtual = 37448
+
+Routing Is Done.
+111 Infos, 88 Warnings, 39 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:05:53 ; elapsed = 00:01:55 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2665 ; free virtual = 37448
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2574 ; free virtual = 37434
+INFO: [Common 17-1381] The checkpoint '/home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 3031.578 ; gain = 0.000 ; free physical = 2643 ; free virtual = 37443
+Command: report_drc -file leon3mp_drc_routed.rpt -pb leon3mp_drc_routed.pb -rpx leon3mp_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:28 ; elapsed = 00:00:10 . Memory (MB): peak = 3105.695 ; gain = 74.117 ; free physical = 2626 ; free virtual = 37425
+Command: report_methodology -file leon3mp_methodology_drc_routed.rpt -rpx leon3mp_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/trojan_1_NOP_insertion/designs/leon3-xilinx-kc705/vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.runs/impl_1/leon3mp_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:02:16 ; elapsed = 00:00:27 . Memory (MB): peak = 3185.668 ; gain = 79.973 ; free physical = 2401 ; free virtual = 37201
+Command: report_power -file leon3mp_power_routed.rpt -pb leon3mp_power_summary_routed.pb -rpx leon3mp_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family kintex7. Ignoring the voltage setting.
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+118 Infos, 95 Warnings, 39 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:45 ; elapsed = 00:00:20 . Memory (MB): peak = 3311.539 ; gain = 125.871 ; free physical = 2385 ; free virtual = 37120
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: write_bitstream -force leon3mp.bit -mask_file
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t-ffg900'
+Running DRC as a precondition to command write_bitstream
+Command: report_drc (run_mandatory_drcs) for: bitstream_checks
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[0].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[1].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[2].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[3].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[4].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[5].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[6].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HP.gen_dqs_iobuf[7].gen_dqs_diff.u_iobuf_dqs/IBUFDS_0 has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1840 rule limit reached: 20 violations have been found.
+WARNING: [DRC DPIP-1] Input pipelining: DSP leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/mgen.mul0/xm1616.m1616/pipe2.arch0.dwm/w2.p_i_reg[1] input leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/mgen.mul0/xm1616.m1616/pipe2.arch0.dwm/w2.p_i_reg[1]/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/mgen.mul0/xm1616.m1616/pipe2.arch0.dwm/w2.p_i_reg[1] input leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/mgen.mul0/xm1616.m1616/pipe2.arch0.dwm/w2.p_i_reg[1]/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC PDCN-2721] IBUFDS_GT_loads_clock_region: IBUFDS_GTE2 eth0.ibufds_gtrefclk drives PLLE2_ADV eth0.clkgen_gtrefclk/xc7l.v/PLLE2_ADV_inst in a different clock region and must do so using local routing resources which may negatively affect clock performance. Use CLOCK_DEDICATED_ROUTE set to FALSE to indicate this is intended.
+WARNING: [DRC REQP-1709] Clock output buffering: PLLE2_ADV connectivity violation. The signal mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_ddr3_infrastructure/pll_clk3_out on the mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3 pin of mig_gen.gen_mig.ddrc/gen_mig.MCB_inst/u_mig_mig/u_ddr3_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[5] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[6] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[1]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[2]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRARDADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/D[4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[5] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[6] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][1]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][2]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ADDRBWRADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][address][4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ENARDEN (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][swrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/ENBWREN (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][tenable][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/WEA[2] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][swrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0 has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/a9.x[0].r0/WEA[3] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/a6.x0/crami[dcramin][swrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][8]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[13] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][9]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[4] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[5] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][1]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[6] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][2]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ADDRARDADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/ENARDEN (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][denable][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/WEA[0] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][dwrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[0].r/WEA[1] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][dwrite][0]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[10] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][6]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[11] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][7]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[12] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][8]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[13] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][9]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[7] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][3]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[8] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][4]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r has an input control pin leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r/ADDRARDADDR[9] (net: leon/l3.leon3blk.cpu[0].leon3/vhdl.cmem0/dme.dd0[0].ddata0/xc2v.x0/crami[dcramin][address][5]) which is driven by a register (leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_reg[w][s][et]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC RTSTAT-10] No routable loads: 63 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_flags[7:0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_decill_D, leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_a_getpc_D, leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_aw_D, leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_irqlatmet_D, leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_irqstart_D, leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_paw_D, leon/l3.leon3blk.cpu[0].leon3/vhdl.p0/iu/r_d_rexcnt_D... and (the first 15 of 47 listed).
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 56 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./leon3mp.bit...
+Creating mask data...
+Creating bitstream...
+Writing bitstream ./leon3mp.msk...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+127 Infos, 151 Warnings, 39 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:02:07 ; elapsed = 00:00:45 . Memory (MB): peak = 3716.730 ; gain = 405.191 ; free physical = 2294 ; free virtual = 36867
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 10 16:27:56 2017...

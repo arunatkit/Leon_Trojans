@@ -1,0 +1,145 @@
+/*
+
+Vivado v2017.1 (64-bit)
+SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+
+Process ID: 11860
+License: Customer
+
+Current time: 	7/28/17 4:33:45 PM CEST
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: NAME="Ubuntu"
+OS Version: 4.4.0-87-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :0.0
+Screen size: 3840x1200
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 117 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre
+JVM executable location: 	/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/bin/java
+Java library paths: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/libxslt/lib:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/lnx64.o:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/lib/amd64:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/tps/lnx64/jre/lib/amd64/server:/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	arunkumar
+User home directory: /home/arunkumar
+User working directory: /home/arunkumar/Dropbox/Topics_in_queue/hardware_trojan/running_trojan_on_kc705/grlib-gpl-2017.2-b4194/designs/leon3-xilinx-kc705
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado
+HDI_APPROOT: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1
+RDI_DATADIR: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/data
+RDI_BINDIR: /home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/bin
+
+User preferences location: /home/arunkumar/.Xilinx/Vivado
+Vivado preferences directory: /home/arunkumar/.Xilinx/Vivado/2017.1/vivado.xml
+Vivado layouts directory: /home/arunkumar/.Xilinx/Vivado/2017.1/layouts
+PlanAhead jar location: 	/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-11860-i83pc10
+
+GUI allocated memory:	170 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,031 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// bs:g (cg:JFrame):  Sourcing Tcl script './vivado/leon3mp_vivado.tcl' : addNotify
+// Tcl Message: source ./vivado/leon3mp_vivado.tcl 
+// Tcl Message: # create_project leon3-xilinx-kc705 ./vivado/leon3-xilinx-kc705 -part XC7K325Tffg900-2 -force 
+// [GUI Memory]: 53 MB (+52678kb) [00:00:07]
+// [Engine Memory]: 5,020 MB (+5112764kb) [00:00:07]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,049 MB. GUI used memory: 29 MB. Current time: 7/28/17 4:33:47 PM CEST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 56 MB (+409kb) [00:00:21]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/arunkumar/Vivado_2017.1_installation_directory/Vivado/2017.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 60 MB (+1740kb) [00:00:23]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 6051.758 ; gain = 74.809 ; free physical = 13887 ; free virtual = 46929 
+// Tcl Message: # set_property top testbench [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 65 MB (+1778kb) [00:00:27]
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 69 MB (+488kb) [00:00:31]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: # read_verilog -library opencores ../../lib/opencores/ge_1000baseX/decoder_8b10b.v 
+// Tcl Message: # read_verilog -library opencores ../../lib/opencores/ge_1000baseX/encoder_8b10b.v 
+// Tcl Message: # read_verilog -library opencores ../../lib/opencores/ge_1000baseX/ge_1000baseX_constants.v 
+// Tcl Message: # read_verilog -library opencores ../../lib/opencores/ge_1000baseX/ge_1000baseX_regs.v 
+// Tcl Message: # read_verilog -library opencores ../../lib/opencores/ge_1000baseX/ge_1000baseX_test.v 
+// Tcl Message: # read_verilog -library opencores ../../lib/opencores/ge_1000baseX/timescale.v 
+// Tcl Message: # read_vhdl -library opencores ../../lib/opencores/ge_1000baseX/ge_1000baseX_comp.vhd # read_verilog -library opencores -sv ../../lib/opencores/ge_1000baseX/ge_1000baseX.v 
+// Tcl Message: # read_verilog -library opencores -sv ../../lib/opencores/ge_1000baseX/ge_1000baseX_an.v 
+// Tcl Message: # read_verilog -library opencores -sv ../../lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v 
+// Tcl Message: # read_verilog -library opencores -sv ../../lib/opencores/ge_1000baseX/ge_1000baseX_rx.v 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,100 MB. GUI used memory: 32 MB. Current time: 7/28/17 4:34:12 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: # read_verilog -library opencores -sv ../../lib/opencores/ge_1000baseX/ge_1000baseX_sync.v 
+// Tcl Message: # read_verilog -library opencores -sv ../../lib/opencores/ge_1000baseX/ge_1000baseX_tx.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// [GUI Memory]: 75 MB (+3271kb) [00:00:51]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: BOARD_MODIFIED
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_ip: Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 6086.203 ; gain = 2.301 ; free physical = 13738 ; free virtual = 46913 
+// Tcl Message: # generate_target  all [get_files ./vivado/leon3-xilinx-kc705/leon3-xilinx-kc705.srcs/sources_1/ip/mig/mig.xci] -force  
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mig'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mig'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mig'... 
+// Tcl Message: generate_target: Time (s): cpu = 00:01:30 ; elapsed = 00:01:29 . Memory (MB): peak = 6086.207 ; gain = 0.004 ; free physical = 13583 ; free virtual = 46854 
+dismissDialog("Sourcing Tcl script './vivado/leon3mp_vivado.tcl'"); // bs:g (cg:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 5,118 MB. GUI used memory: 33 MB. Current time: 7/28/17 4:36:32 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
